@@ -1,0 +1,108 @@
+nav {
+	font-family: "Quantico";
+	letter-spacing: .5px;
+	padding: 100px 0;
+	text-transform: uppercase;
+}
+nav h3 {
+	display: inline;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline;
+	padding: 0 0 0 20px;
+}
+.links ul {
+	text-align: right;
+}
+.logo {
+	color: #394042;
+}
+.logo-img {
+	background: url(../images/logo-11x10.svg) no-repeat;
+	display: inline-block;
+	width: 11px;
+	height: 10px;
+}
+.work a:hover {
+	border-bottom: 2px solid #724ace;
+	color: #724ace;
+}
+.work-active a {
+	border-bottom: 2px solid #724ace;
+	color: #724ace;
+}
+.info a:hover {
+	border-bottom: 2px solid #4acace;
+	color: #4acace;
+}
+.info-active a {
+	border-bottom: 2px solid #4acace;
+	color: #4acace;
+}
+.info-content {
+	padding-top: 125px;
+}
+.hero-word {
+	color: #724ace;
+}
+.hero-bg {
+	background: url(../images/hero-bg-alt.svg) no-repeat center;
+	display: block;
+	width: 100%;
+	height: 100%;
+padding: 20px 0 0 0;
+	position: relative;
+	z-index: 10;
+}
+.home-work-gray {
+	background: #f7f7f7;
+	height: 640px;
+	margin: -30px 0 0 0;
+	padding-top: 125px;
+	position: relative;
+	z-index: 9;
+}
+.work-turq {
+	background: #4acace;
+	height: 640px;
+	padding-top: 125px;
+}
+.work-gray {
+	background: #f7f7f7;
+	height: 640px;
+	padding-top: 125px;
+}
+.work-purple {
+	background: #724ace;
+	height: 640px;
+	padding-top: 125px;
+}
+.work-white {
+	background: #fff;
+	height: 640px;
+	padding-top: 125px;
+}
+footer {
+	height: auto;
+	margin: 100px 0;
+}
+footer .logo {
+	background: url(../images/footer-logo.svg) no-repeat;
+	display: inline-block;
+	float: right;
+	height: 80px;
+	width: 83px;
+}
+
+/* selected text modification */
+::selection{ /* Safari and Opera */  
+    background:#c3effd;   
+    color:#000;    
+}  
+::-moz-selection{ /* Firefox */  
+    background:#c3effd;   
+    color:#000;   
+} 
