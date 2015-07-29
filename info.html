@@ -1,111 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+<!-- Basic Page Needs -->
+<meta charset="utf-8">
+<title>JDT | Info</title>
+<meta name="description" content="">
+<meta name="author" content="John Delane Taylor">
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- FONT -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Quantico:400,400italic,700,700italic|Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic|' rel='stylesheet' type='text/css'>
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Quantico:700italic,700,400italic,400' rel='stylesheet' type='text/css'>
+<!-- CSS -->
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/jquery.bxslider.css">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/contact.css">
-	<!-- bxSlider CSS file -->
-	<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+    
 </head>
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<div class="container">
-		<div class="row">
-			<nav>
-				<div class="six columns">
-					<a href="index.html">
-						<div class="logo-img"></div>
-						<h3 class="logo"><strong>Delta</strong> Agency</h3>
-					</a>
-				</div>
-				<div class="six columns links">
-					<ul>
-						<li class="work"><a href="work.html">Work</a></li>
-						<li class="info-active"><a href="info.html">Info</a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	</div>
-	
-	<div class="container info-content">
-		<div class="row">
-			<div class="five columns">
-				<h3>About <strong>Delta</strong> Agency</h3>
-				<p>The Delta Agency is a collection of recent work by Florida based freelance designer John Delane Taylor.</p>
-                <h3>Connect</h3>
-				<p><a href="#">@jhndlntylr</a><br>
-				    <a href="#">johndelanetaylor@gmail.com</a>
-				</p>
-			</div>
-            <div class="offset-by-two five columns u-pull-right">
-                <form id="contact" action="php/info.php" method="post">
-                    <h3>Contact</h3>
-                    <fieldset>
-                        <input placeholder="Full Name" type="text" name="name" tabindex="1" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Email Address" type="email" name="email" tabindex="2" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Phone Number" type="tel" name="tel" tabindex="3" required>
-                    </fieldset>
-                    <fieldset>
-                        <textarea placeholder="Type your Message" name="message" tabindex="4" required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="What is 2+2? (Anti-spam)" type="text" name="human" tabindex="5" required>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" value="Send" id="contact-submit" data-submit="...Sending">Send</button>
-                    </fieldset>
-                </form>
+    
+    <section class="purple-bg">
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="three columns">
+                        <a href="index.html">John Delane Taylor</a> <!-- <strong>&Delta; Delta</strong> Agency-->
+                    </div>
+                    <div class="nine columns">
+                        <ul>
+                            <li><a href="work.html">Work</a></li>
+                            <li><a href="journal.html">Journal</a></li>
+                            <li><a href="info.html">Info</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-		</div>
-	</div>
-	
-	<footer>
+        </nav>
+        
+        <!-- Primary Page Layout -->
+        <section class="center">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns sm-pad">
+                        <img src="images/me-circle.png" style="height: 180px; width: 180px;" />
+                    </div>
+                    <div class="offset-by-four four columns">
+                    <a href="https://twitter.com/jhndlntylr" target="_blank"><h6>Interweb Designerd</h6></a>
+                    </div>
+                    <div class="twelve columns sm-pad">
+                        <h3><span class="gray">John Delane Taylor</span> is a conceptual problem solver and enjoys building brands, digital experiences, and bridging the gap between art, design, and code.</h3>
+                        <h3>Currently, John is the lead designer at <a href="http://wearecharette.com/" target="_blank">We Are Charette</a>, a multidisciplinary design firm with clients worldwide specializing in identitiy, web, and packaging design.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <section class="md-pad">
+        <div class="container">
+            <div class="row">
+                <div class="three columns">
+                    <h6>Skillset</h6>
+                </div>
+                <div class="three columns">
+                    <ul>
+                        <li>Branding &amp; Identity</li>
+                        <li>Web Design</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+                <div class="three columns">
+                    <ul>
+                        <li>Typography</li>
+                        <li>UI/UX Design</li>
+                        <li>Visual Communication</li>
+                    </ul>
+                </div>
+                <div class="three columns">
+                    <ul>
+                        <li>Packaging</li>
+                        <li>Print &amp; Editorial</li>
+                        <li>Photography</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="md-pad black-bg center">
+        <div class="container">
+            <div class="row">
+                <div class="twelve">
+                    <h6>Get In Touch</h6>
+                    <h4>-</h4>
+                    <h4><a href="mailto:johndelanetaylor@gmail.com">johndelanetaylor@gmail.com</a></h4>
+                    <h4>386 365 2321</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="md-pad social">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <ul>
+                        <li><a href="https://twitter.com/jhndlntylr" target="_blank"><h3>Twitter</h3></a></li>
+                        <li><a href="https://dribbble.com/johndelanetaylor" target="_blank"><h3>Dribbble</h3></a></li>
+                        <li><a href="https://github.com/johndelanetaylor" target="_blank"><h3>Github</h3></a></li>
+                        <li><a href="https://instagram.com/johndelanetaylor/" target="_blank"><h3>Instagram</h3></a></li>
+                        <li><a href="https://www.linkedin.com/pub/john-taylor/72/1aa/366" target="_blank"><h3>Linkedin</h3></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sm-pad black-bg center">
+        <div class="container">
+            <div class="row">
+                <div class="offset-by-two eight columns">
+                    <hr>
+                    <h4>"Designers try to think outside the box but sometimes the answer comes from within."</h4>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer class="md-pad">
 		<div class="container">
 			<div class="row">
-				<div class="logo offset-by-eleven"></div>
+				<div class="four columns">
+					<h6>About</h6> <!-- <h6>About <strong>Delta</strong> Agency</h6> -->
+                    <p>John Delane Taylor is a designer of brands and digital experiences.</p>
+					<!-- <p>The Delta Agency is a collection of recent work by<br />
+                        Florida based designer <a href="info.html">John Delane Taylor</a>.</p> -->
+				</div>
+				<div class="offset-by-two four columns">
+					<h6>Connect</h6>
+					<p><a href="mailto:johndelanetaylor@gmail.com">johndelanetaylor@gmail.com</a><br />
+                        386 365 2321</p>
+				</div>
+				<div class="two columns">
+                    <a href="index.html" class="u-pull-right"><img src="images/footer-logo.svg" /></a>
+                </div>
 			</div>
 		</div>
 	</footer>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	
-	<!-- jQuery library (served from Google) -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        
+<!-- End Document -->
+    
+    	<!-- jQuery library (served from Google) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- bxSlider Javascript file -->
-	<script src="/js/jquery.bxslider.min.js"></script>
-	
+	<script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/slider.js"></script>
+    
 </body>
 </html>

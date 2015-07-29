@@ -4,7 +4,7 @@
     
 <!-- Basic Page Needs -->
 <meta charset="utf-8">
-<title>JDT | Home</title>
+<title>JDT | Journal</title>
 <meta name="description" content="">
 <meta name="author" content="John Delane Taylor">
 
@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/jquery.bxslider.css">
+<link rel="stylesheet" href="css/experiments.css">
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="images/favicon.png">
@@ -28,10 +29,7 @@
 <body>
     
     <section class="black-bg">
-        
-<!-- Navigation -->
-        
-        <nav class="animated">
+        <nav>
             <div class="container">
                 <div class="row">
                     <div class="three columns">
@@ -50,19 +48,73 @@
         
 <!-- Primary Page Layout -->
         
-        <section class="lg-pad">
+        <section class="center">
             <div class="container">
                 <div class="row">
-                    <div class="eight columns">
-                        <h1><span class="purple">John Delane Taylor</span> is a designer of brands and digital experiences.</h1>
-                        <!-- <h1><span class="purple">Delta Agency</span> is a collection of recent work by designer <a href="info.html">John Delane Taylor</a>.</h1><h6>He enjoys building brands &amp; digital experiences.</h6> -->
+                    <div class="twelve columns sm-pad">
+                        <h3>Shadow Boxes</h3>
                     </div>
                 </div>
             </div>
         </section>
-        
+    </section>
+
+<!-- Shadow Box -->
+    
+    <section class="shadow-box">
+        <div class="container">
+            <div class="row">
+                <div class="offset-by-two eight columns center md-pad">
+                    <div class="box-one shadow">
+                        <div class="box-two shadow">
+                            <div class="box-three shadow">
+                                <div class="box-four shadow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-by-two eight columns md-pad-top">
+                    <p>Nest your divs and label them outside in: <code>box-one</code>, <code>box-two</code>, <code>box-three</code>, and <code>box-four</code>. The CSS is as follows:</p>
+                    <pre>
+                        <code>
+.shadow-box .box-one {
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.shadow-box .box-two {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.shadow-box .box-three {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.shadow-box .box-four {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.shadow-box .shadow {
+    -moz-box-shadow:    0px 0px 20px 20px #FAFAFA;
+    -webkit-box-shadow: 0px 0px 20px 20px #FAFAFA;
+    box-shadow:         0px 0px 20px 20px #FAFAFA;
+}
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
     </section>
     
+    <hr>
+ 
 <!-- Footer -->
     <footer class="md-pad">
 		<div class="container">
