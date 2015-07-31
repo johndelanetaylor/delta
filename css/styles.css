@@ -110,7 +110,7 @@ nav a {
 	position: relative;
 }
 .work .image-box:hover figcaption {
-	opacity: 0.75;
+	opacity: 0.85;
 margin-bottom: 0;
 }
 .work .image-box figcaption {
