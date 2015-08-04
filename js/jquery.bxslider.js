@@ -74,7 +74,7 @@
 
 		// CAROUSEL
 		minSlides: 1,
-		maxSlides: 1,
+		maxSlides: 1, 
 		moveSlides: 0,
 		slideWidth: 0,
 
@@ -206,7 +206,7 @@
 			// make modifications to the viewport (.bx-viewport)
 			slider.viewport.css({
 				width: '100%',
-				overflow: 'hidden',
+                overflow: 'hidden',
 				position: 'relative'
 			});
 			slider.viewport.parent().css({
@@ -636,8 +636,8 @@
 		 * Appends prev / next controls to the controls element
 		 */
 		var appendControls = function(){
-			slider.controls.next = $('<a class="bx-next" href="">' + slider.settings.nextText + '</a>');
-			slider.controls.prev = $('<a class="bx-prev" href="">' + slider.settings.prevText + '</a>');
+			slider.controls.next = $('<a class="bx-next"></a>');
+			slider.controls.prev = $('<a class="bx-prev"></a>');
 			// bind click actions to the controls
 			slider.controls.next.bind('click', clickNextBind);
 			slider.controls.prev.bind('click', clickPrevBind);
