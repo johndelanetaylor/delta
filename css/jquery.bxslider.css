@@ -85,13 +85,13 @@
     margin-right: 0.2em;
 }
 .bx-wrapper .bx-prev {
-    left: 10px;
+    left: -40px; /* left: 10px; */
     -webkit-transform: rotate(225deg);
     -ms-transform: rotate(225deg);
     transform: rotate(225deg);
 }
 .bx-wrapper .bx-next {
-    right: 7px;
+    right: -40px; /* right: 7px; */
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
