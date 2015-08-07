@@ -1,4 +1,5 @@
-/* -- General Styles -- */
+
+/* ------ General Styles ------ */
 
 .lg-pad {
     padding: 200px 0;
@@ -31,10 +32,13 @@
     background-position: center center;
 }
 
-/* -- Color Styles -- */
+/* ------ Color Styles ------ */
 
 .black-bg {
     background: #222128;
+    color: #FAFAFA;
+}
+.black-bg h6 {
     color: #FAFAFA;
 }
 .black {
@@ -63,7 +67,7 @@
     color: #707C80;
 }
 
-/* -- Navigation Styles -- */
+/* ------ Navigation Styles ------ */
 
 nav {
     font-family: "Quantico", Helvetica, sans-serif;
@@ -85,11 +89,8 @@ nav a {
     text-decoration: none;
     color: #FAFAFA;
 }
-.logo {
 
-}
-
-/* -- Work Page -- */
+/* ------ Work Page ------ */
 
 .work figure {
 	margin: 0;
@@ -104,7 +105,8 @@ nav a {
 	width: 100%;
 }
 
-/* -- Website Image Styles -- */
+/* ------ Website Image Styles ------ */
+
 .web-head {
     width: 100%;
     height: 20px;
@@ -132,7 +134,7 @@ nav a {
     padding: 0;
 }
 
-/* Image Container */
+/* ------ Image Container ------ */
 
 .work .image-box {
 	overflow: hidden;
@@ -158,10 +160,8 @@ margin-bottom: 0;
     margin: 0 auto;
     padding: 20px 0;
 }
-.work-detail {
-    
-}
-/* -- Info Page -- */
+
+/* ------ Info Page ------ */
 
 .social ul {
     text-align: center;
@@ -174,10 +174,10 @@ margin-bottom: 0;
     margin-bottom: 0;
 }
 
-/* -- Journal Page -- */
+/* ------ Journal Page ------ */
 
 .journal h4, h6 {
-    display: inline-block;
+    display: inline;
 }
 .journal h4 {
     line-height: 1.8;
@@ -185,4 +185,82 @@ margin-bottom: 0;
 .journal h6 {
     float: right;
     line-height: 3.6;
+}
+
+/* ------ Media Queries ------ */
+
+@media (max-width: 399px) {
+
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        padding: 40px 10px 0px 10px;
+    }
+    nav a {
+        text-align: center;
+    }
+    .lg-pad {
+        padding: 50px 0;
+    }
+    .md-pad {
+        padding: 30px 0;
+    }
+    .md-pad-top {
+        padding: 30px 0 0 0;
+    }
+    .sm-pad {
+        padding: 10px 0;
+    }
+    .journal h4, h6 {
+        display: inline;
+    }
+    .journal h4 {
+        line-height: 2.4;
+    }
+    .journal h6 {
+        float: right;
+    }
+    .skillset ul {
+        font-size: 1.2em;
+        list-style: none;
+    }
+    .social ul {
+        text-align: center;
+    }
+    .social li {
+        display: block;
+    }
+}
+
+@media (min-width: 550px) {
+
+}
+
+@media (min-width: 1000px) {
+
+    .skillset h4 {
+        display: none;
+    }
+}
+
+@media (max-width: 999px) {
+
+    .skillset h4 {
+        display: none;
+    }
+}
+
+@media (max-width: 749px) {
+
+    .skillset h4 {
+        display: none;
+    }
+}
+
+@media (max-width: 549px) {
+
+    .skillset h4 {
+        display: block;
+    }
 }
