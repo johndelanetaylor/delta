@@ -158,7 +158,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; font-family: "Quan
 p {
     color: #707C80;
   margin-top: 0; }
-
+strong {
+    color: #222128;
+}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
